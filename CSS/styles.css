@@ -1,0 +1,266 @@
+/*========= Основна палітра =========*/
+
+:root {
+  --color-dark: #000000;
+  --color-primary-text:#757575;
+  --color-title-text:#212121;
+  --color-white-text:#FFFFFF;
+  --color-action:#2196F3;
+  --color-blue-button: #188CE8;
+  --color-secondary-button:#F5F4FA;
+  --color-white-background:#FFFFFF;
+  --color-secondary-background:#F5F4FA;
+  --color-futter-background: #2F303A;
+}
+
+.body {
+  color: var(--color-primary-text);
+  font-family: Roboto, sans-serif;
+  background-color: var(--color-white-background);
+  font-size: 14px;
+}
+
+.section-title {
+  color: var(--color-title-text);
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+
+/* =========ГОЛОВНА СТОРІНКА========= */
+
+/*========= Шапка сайту=========*/
+
+.logo {
+  color: var(--color-dark);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  }
+.accent {
+  color: var(--color-action);
+}
+
+.list {
+  list-style: none;
+}
+
+.site-nav .link {
+  color: var(--color-title-text);
+  font-weight: 500;
+  line-height: 1.15;
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--color-action);
+}
+
+.auth-nav .link {
+  color: var(--color-primary-text);
+  font-weight: 500;
+  line-height: 1.15;
+  text-decoration: none;
+}
+
+.site-nav .link.current {
+  color: var(--color-action);
+}
+
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--color-action);
+}
+
+
+/* =========Герой =========*/
+
+.hero-title {
+  color: var(--color-white-text);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.button-hero {
+  color: var(--color-white-background);
+  background-color: var(--color-action);
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+}
+
+.hero {
+background-color: var(--color-futter-background);
+}
+
+.button-hero:hover,
+.button-hero:focus {
+  background-color: var(--color-blue-button);
+  }
+
+
+/* =========Наші переваги =========*/
+
+.feature-title {
+  color: var(--color-title-text);
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.feature-text {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+
+.feature-list {
+  list-style: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+} 
+
+/* =========Чим ми займаємося========= */
+
+.services-list {
+  list-style: none;
+}
+
+
+/*========= Наша команда========= */
+
+.section.team {
+  background-color: var(--color-secondary-background);
+}
+
+.team-list .title {
+  color: var(--color-title-text);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.team-list {
+  list-style: none;
+}
+
+.employee {
+  background-color: var(--color-white-background);
+  width: 270px;
+}
+
+
+/* =========Footer =========*/
+
+.footer {
+  background-color: var(--color-futter-background);
+}
+
+.footer-list {
+  list-style: none;
+  line-height: 24px;
+  font-style: normal;
+}
+
+.link-adress {
+  color: var(--color-white-text);
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  }
+
+.footer .link {
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--color-action);
+}
+
+.accent-wiht {
+  color: var(--color-white-text);
+}
+
+
+/*========= PORTFOLIO PAGE=========*/
+
+/* =========Поекти=========*/
+
+.button-direction {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  line-height: 1.62;
+  font-family: inherit;
+  list-style: none;
+  border: none;
+  cursor: pointer;
+}
+
+.button-direction:hover,
+.button-direction:focus {
+  color: var(--color-white-text);
+  background-color: var(--color-action);
+}
+
+
+.direction-list {
+  list-style: none;
+  color: var(--color-white-text);
+} 
+
+.projects-list {
+  list-style: none;
+}
+
+.projects-title {
+  color: var(--color-title-text);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.projects {
+  background-color: var(--color-white-background);
+}
+
+.direction {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
